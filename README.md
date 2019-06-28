@@ -23,7 +23,7 @@ are installed.
 
 ```
 cd buildCmakeHelloWorld
-cmake ../cmakeHelloWorld CMAKE_INSTALL_PREFIX=$PWD/install
+cmake ../cmakeHelloWorld -DCMAKE_INSTALL_PREFIX=$PWD/install
 make 
 make install
 ```

@@ -2,10 +2,10 @@ Derived from: https://cmake.org/examples/
 
 ## layout
 
-src - source code, `hello.h` is the public header and will be installed with `make
+- src - source code, `hello.h` is the public header and will be installed with `make
 install`
-test - example code that exercises APIs in the public header
-CMakeLists.txt - cmake files that specify how to build the library and test
+- test - example code that exercises APIs in the public header
+- CMakeLists.txt - cmake files that specify how to build the library and test
 
 ## setup
 
